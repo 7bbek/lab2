@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <script src="script.js">
+    </script>
+  <div>
+    <button type="button" onclick="allNames()" style="margin: 5px;">All Names</button>
+    <div>
+       <button type="button" onclick="healthIssues()" style="margin: 5px;">Health Issues</button>
+       <input type="number" id="health_issue">
+    </div>
+      <div>
+         <input type="radio" id="imperial" name="weightUnit" value="Imperial"> Imperial
+         <input type="radio" id="metric" name="weightUnit" value="Metric"> Metric
+
+       <button type="button" onclick="getWeight()" style="margin: 5px;">Weight</button>
+      </div>
+      <div>
+       <button type="button" onclick="getIntelligenceFriendly()"style="margin: 5px;">Intelligence - Friendly</button>
+      </div>
+      <div>
+       <button type="button" onclick="getAverageIntelligence()" style="margin: 5px;">Average Intelligence</button>
+      </div>
+      <div>
+       <button type="button" onclick="getAverageChildFriendlyIntelligence()" style="margin: 5px;">Average Intelligence for Child Friendly = 4</button>
+      </div>
+  </div>
+<div name="data" id="data">
+      <div id="main-data">
+      </div>
+</div>
+
+  </body>
+</html>
